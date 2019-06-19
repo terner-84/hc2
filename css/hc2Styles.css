@@ -1,0 +1,57 @@
+/*
+body {
+    width: 960px;
+
+}*/
+
+
+#hc2Chart {
+    width: 1400px;
+    height: 910px;
+    margin: 20px auto;
+}
+
+.w3-modal-content {
+    width: 1750px;
+    
+    border: 3px solid white;
+}
+
+
+#chw {
+    width: 1450px;
+    height: 950px;
+    margin: 20px auto;
+    border: 1px solid black;
+}
+
+#img_loader {
+    width: 48px;
+}
+
+#img_card {
+    width: 320px;
+}
+
+.mypic {
+    margin: 16px 0 16px 16px;
+    width: 320px;
+    cursor: pointer;
+}
+
+#fixed_text {
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+}
+
+.blur_image img {
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+ .blur_image:hover img {
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}

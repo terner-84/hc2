@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="js/hc2.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="css/hc2Styles.css">
+    <title>Ejč sí tů</title>
+</head>
+<body>
+  
+      <div id="fixed_text">
+        Some text
+      </div>    
+
+      <div class="w3-cell-row">
+      <div class="w3-cell">
+        <div class="w3-card-4 mypic w3-left blur_image">
+          <img src="img/IMG_1598.JPG" id="img_card" alt="" srcset="">
+        </div>
+      </div>
+
+      <div class="w3-cell">
+        <div class="w3-card-4 mypic w3-right blur_image" style="margin-right: 16px">
+          <img src="img/IMG_1647.JPG" id="img_card" alt="" srcset="">
+        </div>
+      </div>
+    </div>
+      
+    <div class="w3-container">
+      <button onclick="drawIt()" class="w3-btn w3-deep-orange">Co je to tady</button>
+      <img id="img_loader" src="img/Double Ring-3s-56px.gif" alt="" srcset="">
+    </div>
+  
+    <div style="width: 500px; margin: 20px auto">
+      <div class="w3-cell-row">
+        
+        <div class="w3-container w3-cell w3-blue w3-cell-middle" style="width: 50%; padding: 16px">
+            <input class="w3-check w3-margin-bottom" type="checkbox" checked="checked" id="mycheck"> AAA
+            <input class="w3-input" type="text" name="" id="mytext" disabled>
+          </div>
+        
+        <div class="w3-container w3-cell w3-cell-middle">
+          <div class="w3-right">
+            <button class="w3-btn w3-green">Export 1</button>
+            <button class="w3-btn w3-green" onclick="document.getElementById('modal01').style.display='block'">Export 2</button>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+    <div class="w3-modal" id="modal01" style="display: none">
+      <div class="w3-modal-content" id="modal01_content" style="width: 640px; position: absolute; left: center">
+        <div class="w3-container">
+          <span class="w3-display-topright w3-large w3-btn" onclick="document.getElementById('modal01').style.display='none'">x</span>
+
+          <p>
+            sn
+          </p>
+
+          <div class="w3-panel">
+            <p>
+              any text in panel
+            </p>
+          </div>
+
+          <div class="w3-card-4 w3-padding-16" style="width: 300px; margin: 32px auto">
+            <p>
+              any text inside card
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+<!-- HC2 chart -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content">
+      
+    <div class="w3-container w3-green">
+      <span onclick="document.getElementById('id01').style.display='none'" 
+      class="w3-button w3-display-topright">&times;</span>
+
+      <h1>Zkouška</h1>
+      
+      
+    </div>
+
+    
+    <div id="chw">
+        <div id="hc2Chart" ></div>
+    </div>
+  
+
+    <div class="w3-container w3-green">
+      <p>
+        Zápatí
+      </p>
+    </div>
+
+  </div>
+</div>
+
+
+<script src="js/chart1.js"></script>
+</body>
+</html>
